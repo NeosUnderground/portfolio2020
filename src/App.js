@@ -35,15 +35,15 @@ import './App.css';
       });
  
     return(
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
         <ScrollToTop/>
           <div className="App">
             <Nav/>
               <Switch>
                 <HomePage path='/' exact component={HomePage}/>
-                <ServicesPage path='portfolio2020/Services' component={ServicesPage}/>
-                <ResumePage path='portfolio2020/Resume' component={ResumePage}/>
-                <ContactPage path='portfolio2020/Contact' component={ContactPage}/>
+                <ServicesPage path='/Services' component={ServicesPage}/>
+                <ResumePage path='/Resume' component={ResumePage}/>
+                <ContactPage path='/Contact' component={ContactPage}/>
               </Switch>        
             <Footer/>
           </div>

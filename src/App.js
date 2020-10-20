@@ -40,7 +40,7 @@ import './App.css';
           <div className="App">
             <Nav/>
               <Switch>
-                <HomePage path='/' exact component={HomePage}/>
+                <HomePage path='/portfolio2020' exact component={HomePage}/>
                 <ServicesPage path='/Services' component={ServicesPage}/>
                 <ResumePage path='/Resume' component={ResumePage}/>
                 <ContactPage path='/Contact' component={ContactPage}/>

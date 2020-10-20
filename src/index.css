@@ -108,6 +108,10 @@ h1{
 .grow:hover {
   transform: scale(1.1);
 }
+
+.centerText{
+  text-align: center !important;
+}
 /* #endregion */
 
 

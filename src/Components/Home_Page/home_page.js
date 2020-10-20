@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import HeaderImg from './images/HomePageHeader.png'
 import htmlImg from './images/HTMLImg.png'
 import {projectList} from '../projectCard/projectList';
@@ -53,21 +54,17 @@ export default class home_page extends Component {
         
         return (
             <div className='homePage'>
-        
-       
-        
-            
                 <div className="headerImageWrapper">
                     <img src={HeaderImg} alt="" height="auto" width="100%"/>
                     <div className="headerImageTextContainer">
                         <h1 className='fontWeight100 dropShadow'>Developing Ideas Into Reality</h1>
                         {/* <p className='dropShadow'>AtlasIED is a technology company that can assist an organization's ability to obtain and 
                         retain new talent and create efficiency in workplace processes.</p> 
+                        "homepage":"https://neosunderground.github.io/portfolio2020/",
                     */}
                     </div>
                 </div>
-
-                <div className='textContainerImageRight' data-aos='fade-right'>
+                <div className='textContainerImageRight' data-aos='fade-down'>
                         <div className='textAreaImageRight'>
                             <p>
                                 My name is James Kubitz. I’m an ambitious web developer who is actively improving my skillset. I am eager to continuously learn about my field of study and stay up to date with the latest technologies, often spending hours conducting independent research and teaching myself. Programming is a passion of mine as I enjoy the satisfaction of turning a concept into reality, taking pride in the finished product.                    
@@ -75,14 +72,18 @@ export default class home_page extends Component {
                         </div>
                     <img src={ComputerHands} alt="" />
                 </div>
-                <div className='textContainerImageLeft' data-aos='fade-left'>
+                <div className='textContainerImageLeft' data-aos='fade-up'>
                     <img src={WhiteDesk} alt="" />
                         <div className='textAreaImageLeft'>
                             <p>
                                 I have been doing web development for 5 years and have experience with wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL. 
                             </p>
                         </div>
-                    
+                </div>
+                <div className='textArea ' data-aos='fade-down'>
+                    <p className='centerText'>
+                        My skillset can assist with maintaining, upgrading, or getting your website off the ground. I am open to both employment and freelance work. You can find information about my freelance services <Link style={{textDecoration:'none'}} to='/Services'><span className='OdGreen' >here.</span></Link> If you are interested in viewing my resume you can find that <Link style={{textDecoration:'none'}} to='/Resume'><span className='OdGreen' >here.</span></Link>
+                    </p>
                 </div>
 
   {/* A JSX comment */}
@@ -101,7 +102,7 @@ export default class home_page extends Component {
 
                     <div className='technologiesWrapper '>
                         
-                        <div className='container growBorderRadius' data-aos='fade-left' data-aos-offset="0">
+                        <div className='container growBorderRadius' data-aos='fade-down' data-aos-offset="0">
                             <h2>Back-End</h2>
                                 <ul>
                                     <li>Express Js</li>
@@ -128,7 +129,7 @@ export default class home_page extends Component {
                                     <li>UI/UX Design</li>                                                                                         
                                 </ul>
                         </div>
-                        <div className='container growBorderRadius' data-aos='fade-right'>
+                        <div className='container growBorderRadius' data-aos='fade-down'>
                         <h2>Tools</h2>
                             <ul>
                                 <li>Github</li>

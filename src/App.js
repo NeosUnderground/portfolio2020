@@ -39,12 +39,11 @@ import './App.css';
         <ScrollToTop/>
           <div className="App">
             <Nav/>
-            <HomePage component={HomePage}/>
               <Switch>
                 <HomePage path='/' exact component={HomePage}/>
-                <ServicesPage path='/Services' component={ServicesPage}/>
-                <ResumePage path='/Resume' component={ResumePage}/>
-                <ContactPage path='/Contact' component={ContactPage}/>
+                <ServicesPage path='portfolio2020/Services' component={ServicesPage}/>
+                <ResumePage path='portfolio2020/Resume' component={ResumePage}/>
+                <ContactPage path='portfolio2020/Contact' component={ContactPage}/>
               </Switch>        
             <Footer/>
           </div>

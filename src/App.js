@@ -39,6 +39,7 @@ import './App.css';
         <ScrollToTop/>
           <div className="App">
             <Nav/>
+            <HomePage/>
               <Switch>
                 <HomePage path='/' exact component={HomePage}/>
                 <ServicesPage path='/Services' component={ServicesPage}/>

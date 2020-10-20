@@ -35,7 +35,7 @@ import './App.css';
       });
  
     return(
-      <Router>
+      <Router >
         <ScrollToTop/>
           <div className="App">
             <Nav/>

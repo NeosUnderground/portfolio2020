@@ -62,7 +62,8 @@ export default class home_page extends Component {
                     <div className="headerImageTextContainer">
                         <h1 className='fontWeight100 dropShadow'>Developing Ideas Into Reality</h1>
                         {/* <p className='dropShadow'>AtlasIED is a technology company that can assist an organization's ability to obtain and 
-                        retain new talent and create efficiency in workplace processes.</p> */}
+                        retain new talent and create efficiency in workplace processes.</p> 
+                    */}
                     </div>
                 </div>
 

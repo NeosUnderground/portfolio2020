@@ -64,6 +64,11 @@ export default class home_page extends Component {
                     */}
                     </div>
                 </div>
+                <div className='textArea ' data-aos='fade-down'>
+                    <p className='centerText'>
+                        Schedule youre FREE consultation today! <Link style={{textDecoration:'none'}} to='/Services'><span className='OdGreen' >here.</span></Link> If you are interested in viewing my resume you can find that <Link style={{textDecoration:'none'}} to='/Resume'><span className='OdGreen' >here.</span></Link>
+                    </p>
+                </div>
                 <div className='textContainerImageRight' data-aos='fade-down'>
                         <div className='textAreaImageRight'>
                             <p>

@@ -12,6 +12,19 @@ nav {
     height: auto;
   }
 
+  @media only screen and (max-width: 1800px) {
+    .logo {
+      width: 280px;
+      height: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .logo {
+      width: 180px;
+      height: auto;
+    }
+  }
+
   .logoText h1{
     font-size: 80px;
     color:rgb(109, 129, 101);
@@ -25,7 +38,11 @@ nav {
   .navIcon {
     padding-right: 80px;
   }
-  
+  @media only screen and (max-width: 600px) {
+    .navIcon {
+      padding-right: 0px;
+    }
+  }
   .navIcon:hover {
     cursor: pointer;
   }

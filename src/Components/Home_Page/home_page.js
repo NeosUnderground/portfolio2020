@@ -31,6 +31,10 @@ import Linkedin from './images/Linkedin.jpg'
 import WindowsIIS from './images/WindowsIIS.png'
 import NEXT from './images/next_logo.png'
 import VsCode from './images/VSCode.png'
+import HTMLImage from './images/HTMLImg.png'
+import ProgrammingImage from './images/programming.jpg'
+import ComputerHands from './images/computerHands.jpg'
+import WhiteDesk from './images/whiteDesk.jpg'
 import ClickToShuffle from './images/ClickToShuffle.png'
 
 export default class home_page extends Component {
@@ -62,12 +66,37 @@ export default class home_page extends Component {
                     </div>
                 </div>
 
-                <div className='textArea' data-aos='fade-up'>
+                <div className='textContainerImageRight' data-aos='fade-right'>
+                        <div className='textAreaImageRight'>
+                            <p>
+                                My name is James Kubitz. I’m an ambitious web developer who is actively improving my skillset. I am eager to continuously learn about my field of study and stay up to date with the latest technologies, often spending hours conducting independent research and teaching myself. Programming is a passion of mine as I enjoy the satisfaction of turning a concept into reality, taking pride in the finished product.                    
+                            </p>
+                        </div>
+                    <img src={ComputerHands} alt="" />
+                </div>
+                <div className='textContainerImageLeft' data-aos='fade-left'>
+                    <img src={WhiteDesk} alt="" />
+                        <div className='textAreaImageLeft'>
+                            <p>
+                                I have been doing web development for 5 years and have experience with wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL. 
+                            </p>
+                        </div>
+                    
+                </div>
+
+  {/* A JSX comment */}
+               {/*  <div className='textArea' data-aos='fade-up'>
                         <p>
                           My name is James Kubitz. I’m an ambitious web developer who is actively improving my skillset. I am eager to continuously learn about my field of study and stay up to date with the latest technologies, often spending hours conducting independent research and teaching myself. Programming is a passion of mine as I enjoy the satisfaction of turning a concept into reality, taking pride in the finished product.                    
                         </p>
-                </div>
-                <h1>Technical Experience</h1>
+                        <p>
+                        I have been doing web development for 5 years and have experience with wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL.
+                        </p>
+                        <p>
+                            My skillset can assist with maintaining your website, upgrading your site, or getting it off the ground. I am open to both employment and freelance work. You can find information about my services here.
+                        </p>
+                </div>*/}
+                <h1 data-aos='fade-up'>Technical Experience</h1>
 
                     <div className='technologiesWrapper '>
                         

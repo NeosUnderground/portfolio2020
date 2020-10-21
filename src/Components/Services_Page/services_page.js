@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import HeaderImg from './images/ServicePageHeader.png'
+import {servicesList} from '../ServicesList/servicesList'
+import Services from '../ServicesFolder/services'
+
 
 export default class services_page extends Component {
     render() {
@@ -14,11 +17,8 @@ export default class services_page extends Component {
                 </div>
             </div>
 
-            <div className='textArea'>
-                <p>
-                   My name is James Kubitz. I’m an ambitious web developer who is actively improving my skillset. I am eager to continuously learn about my field of study and stay up to date with the latest technologies, often spending hours conducting independent research and teaching myself. Programming is a passion of mine as I enjoy the satisfaction of turning a concept into reality, taking pride in the finished product.                    
-                </p>
-            </div>
+            <Services services={servicesList}/>
+
          </div>
            
         )

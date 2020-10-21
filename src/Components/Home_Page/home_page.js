@@ -64,10 +64,11 @@ export default class home_page extends Component {
                     */}
                     </div>
                 </div>
-                <div className='textArea ' data-aos='fade-down'>
-                    <p className='centerText'>
-                        Schedule youre FREE consultation today! <Link style={{textDecoration:'none'}} to='/Services'><span className='OdGreen' >here.</span></Link> If you are interested in viewing my resume you can find that <Link style={{textDecoration:'none'}} to='/Resume'><span className='OdGreen' >here.</span></Link>
-                    </p>
+                <div className='textArea' data-aos='fade-down'>
+                    <h1 className='OdGreen'>
+                        Schedule your FREE consultation today!
+                    </h1>
+                    <Link style={{textDecoration:'none'}} to='/Services'> <button className='pointer button '>Schedule Today!</button></Link>
                 </div>
                 <div className='textContainerImageRight' data-aos='fade-down'>
                         <div className='textAreaImageRight'>
@@ -87,7 +88,7 @@ export default class home_page extends Component {
                 </div>
                 <div className='textArea ' data-aos='fade-down'>
                     <p className='centerText'>
-                        My skillset can assist with maintaining, upgrading, or getting your website off the ground. I am open to both employment and freelance work. You can find information about my freelance services <Link style={{textDecoration:'none'}} to='/Services'><span className='OdGreen' >here.</span></Link> If you are interested in viewing my resume you can find that <Link style={{textDecoration:'none'}} to='/Resume'><span className='OdGreen' >here.</span></Link>
+                        My skillset can assist with maintaining, upgrading, or getting your website off the ground. You can find information about my freelance services <Link style={{textDecoration:'none'}} to='/Services'><span className='OdGreen md-24' ><strong>here.</strong></span></Link> If you are interested in viewing my resume you can find it <Link style={{textDecoration:'none'}} to='/Resume'><span className='OdGreen md-24' ><strong>here.</strong></span></Link> I am open to both employment and freelance work, if you are interesting in a FREE consultation you can <Link style={{textDecoration:'none'}} to='/Contact'><span className='OdGreen md-24' ><strong>Contact Me Today!</strong></span></Link>
                     </p>
                 </div>
 
@@ -117,6 +118,7 @@ export default class home_page extends Component {
                                     <li>PostgreSQL</li>
                                     <li>RESTful-APIs</li>
                                     <li>Windows-IIS</li> 
+                                    <li>WooCommerce</li>
                                 </ul>
                         </div>
                         <div className='container growBorderRadius' data-aos='fade-up'>
@@ -130,8 +132,9 @@ export default class home_page extends Component {
                                     <li>JSX</li>
                                     <li>Next JS</li> 
                                     <li>React JS</li>
-                                    <li>Redux </li>    
-                                    <li>UI/UX Design</li>                                                                                         
+                                    <li>Redux JS </li>    
+                                    <li>UI/UX Design</li> 
+                                    <li>WordPress</li>                                                                                        
                                 </ul>
                         </div>
                         <div className='container growBorderRadius' data-aos='fade-down'>
@@ -143,7 +146,8 @@ export default class home_page extends Component {
                                 <li>Photoshop</li>
                                 <li>Postman</li>
                                 <li>Premiere</li>
-                                <li>Vs Code</li>                                                                                       
+                                <li>Vs Code</li>   
+                                                                                                                    
                             </ul>
                     </div>
                 </div>

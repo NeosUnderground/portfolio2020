@@ -12,7 +12,6 @@ const Projects=({projects})=>{
                         description={projects[i].description}
                         technolgy={projects[i].technolgy}
                         url = {projects[i].url}/>
-
   })
 
   return(

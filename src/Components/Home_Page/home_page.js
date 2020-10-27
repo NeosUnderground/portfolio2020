@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import HeaderImg from './images/HomePageHeader.png'
-import htmlImg from './images/HTMLImg.png'
 import {projectList} from '../projectCard/projectList';
 import Projects from '../projects/projects';
 import FlipMove from 'react-flip-move';
 import AOS from 'aos'
+import LazyHero from 'react-lazy-hero';
 
 
 import Angular from './images/Angular.png'
@@ -54,22 +54,16 @@ export default class home_page extends Component {
         
         return (
             <div className='homePage'>
-                <div className="headerImageWrapper">
-                    <img src={HeaderImg} alt="" height="auto" width="100%"/>
-                    <div className="headerImageTextContainer">
-                        <h1 className='fontWeight100 dropShadow'>Developing Ideas Into Reality</h1>
-                        {/* <p className='dropShadow'>AtlasIED is a technology company that can assist an organization's ability to obtain and 
-                        retain new talent and create efficiency in workplace processes.</p> 
-                        "homepage":"https://neosunderground.github.io/portfolio2020/",
-                    */}
-                    </div>
-                </div>
-                <div className='textArea' data-aos='fade-down'>
-                    <h1 className='OdGreen'>
-                        Schedule your FREE consultation today!
-                    </h1>
-                    <Link style={{textDecoration:'none'}} to='/Services'> <button className='pointer button '>Schedule Today!</button></Link>
-                </div>
+            <LazyHero 
+                imageSrc={HeaderImg}
+                minHeight='100vh'
+                opacity='.5'
+                color='black'
+                parallaxOffset='100'
+            >
+                <h1 className='dropShadows'>Developing Ideas Into Reality</h1>
+            </LazyHero>
+          
                 <div className='textContainerImageRight' data-aos='fade-down'>
                         <div className='textAreaImageRight'>
                             <p>
@@ -92,18 +86,8 @@ export default class home_page extends Component {
                     </p>
                 </div>
 
-  {/* A JSX comment */}
-               {/*  <div className='textArea' data-aos='fade-up'>
-                        <p>
-                          My name is James Kubitz. I’m an ambitious web developer who is actively improving my skillset. I am eager to continuously learn about my field of study and stay up to date with the latest technologies, often spending hours conducting independent research and teaching myself. Programming is a passion of mine as I enjoy the satisfaction of turning a concept into reality, taking pride in the finished product.                    
-                        </p>
-                        <p>
-                        I have been doing web development for 5 years and have experience with wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL.
-                        </p>
-                        <p>
-                            My skillset can assist with maintaining your website, upgrading your site, or getting it off the ground. I am open to both employment and freelance work. You can find information about my services here.
-                        </p>
-                </div>*/}
+                {/* A JSX comment */}
+           
                 <h1 data-aos='fade-up'>Technical Experience</h1>
 
                     <div className='technologiesWrapper '>
@@ -154,11 +138,7 @@ export default class home_page extends Component {
                
 
 
-            <div className='iconWrapper' key="img1">
-                <div >
-                    {/*<img className='clickToShuffle grow pointer' src={ClickToShuffle} alt=''/>*/}
-                </div>
-                <FlipMove >               
+            <div className='iconWrapper' key="img1">    
                     <div className='iconGroup'>
                         <img className='skillIcon grow pointer' src={CSS} key="img1" alt='' data-aos="zoom-out-down" data-aos-delay="800" />
                         <img className='skillIcon grow pointer' src={ReactImg} key="img2" alt='' data-aos="zoom-out-down" data-aos-delay="850"  />
@@ -185,8 +165,7 @@ export default class home_page extends Component {
                         <img className='skillIcon grow pointer' src={Premiere}key="img19" alt='' data-aos="zoom-out-down" data-aos-delay="1750"/>
                         <img className='skillIcon grow pointer' src={Postman}key="img20" alt='' data-aos="zoom-out-down" data-aos-delay="1800" />
                         <img className='skillIcon grow pointer' src={VsCode}key="img21"alt='' data-aos="zoom-out-down" data-aos-delay="1850"/>
-                    </div>
-                </FlipMove> 
+                    </div>     
             </div>               
             <div className='projectsWrapper'>
                 <h1 data-aos='fade-up' >Past Projects</h1>

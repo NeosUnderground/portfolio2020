@@ -1,0 +1,149 @@
+.green{
+  color:green;
+  
+}
+
+.inputForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.137);
+    padding:50px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.137);
+    margin:100px 20px 20px 20px;
+    
+}
+
+input{
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(226, 226, 226);
+    padding:20px 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(80,80,80);
+    font-family: "Roboto";
+    margin:20px;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(226, 226, 226);
+    padding:20px 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(80,80,80);
+    font-family: "Roboto";
+    margin:20px;
+}
+
+.formButtons {
+    font-family: "roboto";
+    padding: 5px 15px;
+    margin: 20px 20px 0px 20px;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 3px;
+    background-color: #006bb7;
+    border-style:none;
+    color:rgb(255, 255, 255);
+  }
+
+  .custom-file-uploadBtn{
+    font-family: "roboto";
+    padding: 5px 15px;  
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 3px;
+    background-color: #006bb7;
+    color:rgb(255, 255, 255);
+    width: 100%;
+  }
+
+  input[type="file"] {
+    display: none;
+}
+
+.buttonContainer{
+  margin-top:20px;
+}
+
+.buttonContainer button{
+    margin-left:20px;
+    font-family: "roboto";
+    padding: 5px 15px;
+    margin: 20px 20px 0px 20px;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 3px;
+    background-color: #006bb7;
+    border-style:none;
+    color:rgb(255, 255, 255);
+}
+
+.fileDataContainer{
+  margin: 10px 0px;
+  color:rgb(255, 255, 255);
+}
+
+.errorDisplay{
+  color:red;
+  
+}
+
+@media only screen and (max-width: 960px) {
+  textarea{
+    margin-bottom:20px;
+  }
+  textarea{
+   padding:5px;
+  }
+}
+
+@media only screen and (max-width:750px){
+
+}
+
+@media only screen and (max-width: 500px) {
+  .inputForm{
+    margin-top:50px;
+    margin-bottom:0px;
+    padding:20px;
+  }
+
+  .shadowBoxWrapper{
+    height:90%;
+    top:5%;
+  }
+
+  textarea{
+    font-size:13px;
+     
+  }
+  .buttonContainer button {
+      font-size: 15px;
+  }
+  .custom-file-uploadBtn{
+    font-size:15px;
+  }
+}

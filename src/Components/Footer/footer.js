@@ -8,8 +8,8 @@ export default class footer extends Component {
         return (
             <div className='footer'>
                 <div>
-                    <a href='https://github.com/NeosUnderground' target='_blank'><img src={Github} className='skillIcon grow'/></a>
-                    <a href='https://www.linkedin.com/in/jameskubitz/' target='_blank'><img src={LinkedIn} className='skillIcon grow'/></a>
+                    <a href='https://github.com/NeosUnderground' target='_blank'><img src={Github} className='footerSkillIcon grow'/></a>
+                    <a href='https://www.linkedin.com/in/jameskubitz/' target='_blank'><img src={LinkedIn} className='footerSkillIcon grow'/></a>
                 </div>
             </div>
         )

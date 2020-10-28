@@ -14,3 +14,23 @@
 .ma100{
     margin:100px;
 }
+
+.fileIcon{
+    width:200px;
+    height: auto;
+    margin-bottom:50px;
+}
+
+@media only screen and (max-width: 750px) {
+    .fileIcon{
+        width:150px;
+        height: auto;
+    }
+} 
+
+@media only screen and (max-width: 500px) {
+    .fileIcon{
+        width:100px;
+        height: auto;
+    }
+} 

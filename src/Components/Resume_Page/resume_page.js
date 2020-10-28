@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import HeaderImg from './images/ResumePageHeader.png'
 import ResumeImg from './images/resumeImg.PNG'
+import FileIconImg from './images/FiletypeIcon.png'
+
+
+
 import './resume_page.css'
 import LazyHero from 'react-lazy-hero';
 
@@ -20,8 +24,10 @@ export default class resume_page extends Component {
               
                 <div className='flexCenter'>
                     <div className='resumeImageContainer grow3'>
-                        <img src={ResumeImg}/>
+                       <img src={ResumeImg} alt='James Kubitz Resume'/>
                     </div>
+                    <h1>View and Download:</h1>
+                    <a href='https://drive.google.com/file/d/179koM3yntslZqh5f2SkZzqWPios6mOP7/view?usp=sharing' rel="noopener noreferrer" target='_blank'> <img src={FileIconImg} alt='fileDownload' className='fileIcon grow pointer'></img></a>
                 </div>
             </div>
         )

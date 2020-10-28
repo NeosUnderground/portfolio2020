@@ -119,11 +119,6 @@ textarea{
   }
 }
 
-@media only screen and (max-width:750px){
-  .fyRzcG {
-    min-height: 200vh !important;
-  }
-}
 
 @media only screen and (max-width: 500px) {
   .inputForm{

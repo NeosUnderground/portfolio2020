@@ -67,8 +67,7 @@ export default class home_page extends Component {
                 <div className='textContainerImageRight' data-aos='fade-down'>
                         <div className='textAreaImageRight'>
                             <p>
-                                My name is James Kubitz. I’m an ambitious web developer who is actively improving my skillset. I am eager to continuously learn about my field of study and stay up to date with the latest technologies, often spending hours conducting independent research and teaching myself. Programming is a passion of mine as I enjoy the satisfaction of turning a concept into reality, taking pride in the finished product.                    
-                            </p>
+                            Highly motivated full stack developer who is actively improving my skillset through projects and continual, self-taught, education with a passion for writing clean and reusable code. Quick leaner with an analytical mind and an eye for exceptional design with the ability to collaborate with those around me using clear and effective communication. Goal driven individual with an attention to detail who strives for producing above satisfactory results within a given deadline.                            </p>
                         </div>
                     <img src={ComputerHands} alt="" />
                 </div>
@@ -76,7 +75,7 @@ export default class home_page extends Component {
                     <img src={WhiteDesk} alt="" />
                         <div className='textAreaImageLeft'>
                             <p>
-                                I have been doing web development for 5 years and have experience with wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL. 
+                               Four years experiece with web development icluding: wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL. 
                             </p>
                         </div>
                 </div>
@@ -130,15 +129,14 @@ export default class home_page extends Component {
                                 <li>Photoshop</li>
                                 <li>Postman</li>
                                 <li>Premiere</li>
-                                <li>Vs Code</li>   
-                                                                                                                    
+                                <li>Vs Code</li>                                                                               
                             </ul>
                     </div>
                 </div>
                
 
 
-            <div className='iconWrapper' key="img1">    
+            <div className='iconWrapper' >    
                     <div className='iconGroup'>
                         <img className='skillIcon grow pointer' src={CSS} key="img1" alt='' data-aos="zoom-out-down" data-aos-delay="800" />
                         <img className='skillIcon grow pointer' src={ReactImg} key="img2" alt='' data-aos="zoom-out-down" data-aos-delay="850"  />

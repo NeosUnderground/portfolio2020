@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Nav from './Components/Nav/nav'
 import HomePage from './Components/Home_Page/home_page'
@@ -38,10 +38,10 @@ import './App.css';
           <div className="App">
             <Nav/>
               <Switch>
-                <HomePage path='/' exact component={HomePage}/>
-                <ServicesPage path='/Services' component={ServicesPage}/>
-                <ResumePage path='/Resume' component={ResumePage}/>
-                <ContactPage path='/Contact' component={ContactPage}/>
+                <Route path='/' exact component={HomePage}/>
+                <Route path='/Services' component={ServicesPage}/>
+                <Route path='/Resume' component={ResumePage}/>
+                <Route path='/Contact' component={ContactPage}/>
               </Switch>        
             <Footer/>
           </div>

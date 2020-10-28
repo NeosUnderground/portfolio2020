@@ -24,8 +24,6 @@ import './App.css';
       })
     }
 
-    
-  
 
   render(){
 

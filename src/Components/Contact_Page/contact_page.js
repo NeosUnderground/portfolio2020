@@ -10,10 +10,11 @@ export default class contact_page extends Component {
             <div className='contactPage'>
                 <LazyHero 
                     imageSrc={HeaderImg}
-                    minHeight='100vh'
+                    minHeight='110vh'
                     opacity='.5'
                     color='black'
                     parallaxOffset='100'
+                    className='contactHeaderImg'
                     >
                     <InputForm/>                
                 </LazyHero>

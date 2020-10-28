@@ -33,7 +33,7 @@ import './App.css';
       });
  
     return(
-      <Router  basename={process.env.PUBLIC_URL}>
+      <Router  basename='/'>
         <ScrollToTop/>
           <div className="App">
             <Nav/>

@@ -85,7 +85,11 @@ export default class home_page extends Component {
                     </p>
                 </div>
 
-                {/* A JSX comment */}
+                {/* A JSX comment 
+                 json dev homepage
+                "homepage": "https://neosunderground.github.io/portfolio2020/",
+            
+            */}
            
                 <h1 data-aos='fade-up'>Technical Experience</h1>
 

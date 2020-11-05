@@ -17,6 +17,7 @@ const Projects=({projects})=>{
   return(
     <div className='projectsContainer'>
       <div className='projectsCardContainer'>
+      <h1 data-aos='fade-up' >Past Projects</h1>
         {projectCardComponent}
       </div>
     </div>

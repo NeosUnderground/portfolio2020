@@ -15,6 +15,7 @@ export default class contact_page extends Component {
                     color='black'
                     parallaxOffset='100'
                     className='contactHeaderImg'
+                    transitionDuration='0'
                     >
                     <InputForm/>                
                 </LazyHero>

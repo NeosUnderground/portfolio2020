@@ -59,6 +59,7 @@ export default class home_page extends Component {
                 opacity='.5'
                 color='black'
                 parallaxOffset='100'
+                transitionDuration='0'
             >
                 <h1 className='dropShadows'>Developing Ideas Into Reality</h1>
             </LazyHero>

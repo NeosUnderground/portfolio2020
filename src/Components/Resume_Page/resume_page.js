@@ -18,12 +18,13 @@ export default class resume_page extends Component {
                 opacity='.5'
                 color='black'
                 parallaxOffset='100'
+                transitionDuration='0'
             >
                 <h1 className='dropShadows'>Resume</h1>
             </LazyHero>
               
                 <div className='flexCenter'>
-                    <div className='resumeImageContainer grow3'>
+                    <div className='resumeImageContainer'>
                        <img src={ResumeImg} alt='James Kubitz Resume'/>
                     </div>
                     <h1>View and Download:</h1>

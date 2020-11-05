@@ -15,6 +15,7 @@ export default class services_page extends Component {
             opacity='.5'
             color='black'
             parallaxOffset='100'
+            transitionDuration='0'
         >
             <h1 className='dropShadows'>Services</h1>
         </LazyHero>

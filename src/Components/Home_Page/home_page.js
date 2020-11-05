@@ -138,40 +138,40 @@ export default class home_page extends Component {
                     </div>
                 </div>
                
+            <Projects projects={projectList}/>
 
-{/* A JSX comment 
             <div className='iconWrapper' >    
                     <div className='iconGroup'>
-                        <img className='skillIcon grow pointer' src={CSS} key="img1" alt='' data-aos="zoom-out-down" data-aos-delay="800" />
-                        <img className='skillIcon grow pointer' src={ReactImg} key="img2" alt='' data-aos="zoom-out-down" data-aos-delay="850"  />
-                        <img className='skillIcon grow pointer' src={HTML} key="img3"alt='' data-aos="zoom-out-down" data-aos-delay="950" />
-                        <img className='skillIcon grow pointer' src={NEXT} key="img4" alt='' data-aos="zoom-out-down" data-aos-delay="1000" />
-                        <img className='skillIcon grow pointer' src={ReduxImg} key="img5" alt='' data-aos="zoom-out-down" data-aos-delay="1050" />
+                        <img className='skillIcon grow pointer' src={CSS} key="img1" alt='' data-aos="zoom-out-down" data-aos-delay="100" />
+                        <img className='skillIcon grow pointer' src={ReactImg} key="img2" alt='' data-aos="zoom-out-down" data-aos-delay="150"  />
+                        <img className='skillIcon grow pointer' src={HTML} key="img3"alt='' data-aos="zoom-out-down" data-aos-delay="200" />
+                        <img className='skillIcon grow pointer' src={NEXT} key="img4" alt='' data-aos="zoom-out-down" data-aos-delay="250" />
+                        <img className='skillIcon grow pointer' src={ReduxImg} key="img5" alt='' data-aos="zoom-out-down" data-aos-delay="300" />
                     </div>
                     <div className='iconGroup'>
-                        <img className='skillIcon grow pointer' src={Express} key="img6" alt='' data-aos="zoom-out-down" data-aos-delay="1100" />
-                        <img className='skillIcon grow pointer' src={Node} key="img7" alt='' data-aos="zoom-out-down" data-aos-delay="1150" />
-                        <img className='skillIcon grow pointer' src={MongoDB} key="img8" alt='' data-aos="zoom-out-down" data-aos-delay="1200" />
-                        <img className='skillIcon grow pointer' src={WindowsIIS} key="img9" alt='' data-aos="zoom-out-down" data-aos-delay="1250" />
-                        <img className='skillIcon grow pointer' src={Firebase}key="img10" alt='' data-aos="zoom-out-down" data-aos-delay="1300" />
-                        <img className='skillIcon grow pointer' src={Postgress}key="img11"alt='' data-aos="zoom-out-down" data-aos-delay="1350" />
-                        <img className='skillIcon grow pointer' src={Javascript}key="img12"alt='' data-aos="zoom-out-down" data-aos-delay="1400" />
+                        <img className='skillIcon grow pointer' src={Express} key="img6" alt='' data-aos="zoom-out-down" data-aos-delay="350" />
+                        <img className='skillIcon grow pointer' src={Node} key="img7" alt='' data-aos="zoom-out-down" data-aos-delay="400" />
+                        <img className='skillIcon grow pointer' src={MongoDB} key="img8" alt='' data-aos="zoom-out-down" data-aos-delay="450" />
+                        <img className='skillIcon grow pointer' src={WindowsIIS} key="img9" alt='' data-aos="zoom-out-down" data-aos-delay="500" />
+                        <img className='skillIcon grow pointer' src={Firebase}key="img10" alt='' data-aos="zoom-out-down" data-aos-delay="550" />
+                        <img className='skillIcon grow pointer' src={Postgress}key="img11"alt='' data-aos="zoom-out-down" data-aos-delay="600" />
+                        <img className='skillIcon grow pointer' src={Javascript}key="img12"alt='' data-aos="zoom-out-down" data-aos-delay="650" />
                     </div>
                     <div className='iconGroup'>
-                        <img className='skillIcon grow pointer' src={Angular}key="img13" alt='' data-aos="zoom-out-down" data-aos-delay="1450" />
-                        <img className='skillIcon grow pointer' src={Bootstrap}key="img14" alt='' data-aos="zoom-out-down" data-aos-delay="1500" />
-                        <img className='skillIcon grow pointer' src={Github}key="img15" alt='' data-aos="zoom-out-down" data-aos-delay="1550" />
-                        <img className='skillIcon grow pointer' src={Heroku}key="img16" alt='' data-aos="zoom-out-down" data-aos-delay="1600" />
-                        <img className='skillIcon grow pointer' src={Illistrator}key="img17" alt='' data-aos="zoom-out-down" data-aos-delay="1650"/>
-                        <img className='skillIcon grow pointer' src={Photoshop}key="img187" alt='' data-aos="zoom-out-down" data-aos-delay="1700" />
-                        <img className='skillIcon grow pointer' src={Premiere}key="img19" alt='' data-aos="zoom-out-down" data-aos-delay="1750"/>
-                        <img className='skillIcon grow pointer' src={Postman}key="img20" alt='' data-aos="zoom-out-down" data-aos-delay="1800" />
-                        <img className='skillIcon grow pointer' src={VsCode}key="img21"alt='' data-aos="zoom-out-down" data-aos-delay="1850"/>
+                        <img className='skillIcon grow pointer' src={Angular}key="img13" alt='' data-aos="zoom-out-down" data-aos-delay="700" />
+                        <img className='skillIcon grow pointer' src={Bootstrap}key="img14" alt='' data-aos="zoom-out-down" data-aos-delay="750" />
+                        <img className='skillIcon grow pointer' src={Github}key="img15" alt='' data-aos="zoom-out-down" data-aos-delay="800" />
+                        <img className='skillIcon grow pointer' src={Heroku}key="img16" alt='' data-aos="zoom-out-down" data-aos-delay="850" />
+                        <img className='skillIcon grow pointer' src={Illistrator}key="img17" alt='' data-aos="zoom-out-down" data-aos-delay="900"/>
+                        <img className='skillIcon grow pointer' src={Photoshop}key="img187" alt='' data-aos="zoom-out-down" data-aos-delay="950" />
+                        <img className='skillIcon grow pointer' src={Premiere}key="img19" alt='' data-aos="zoom-out-down" data-aos-delay="1000"/>
+                        <img className='skillIcon grow pointer' src={Postman}key="img20" alt='' data-aos="zoom-out-down" data-aos-delay="1050" />
+                        <img className='skillIcon grow pointer' src={VsCode}key="img21"alt='' data-aos="zoom-out-down" data-aos-delay="1100"/>
                     </div>     
             </div>               
-            */}
+           
                 
-                <Projects projects={projectList}/>
+                
             
     </div>
         )

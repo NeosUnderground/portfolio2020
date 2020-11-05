@@ -1,6 +1,11 @@
  .contactPage{
     
  }
+ @media only screen and (max-height:1150px){
+  .contactHeaderImg {
+    min-height: 150vh !important;
+  }
+}
 
  @media only screen and (max-width:500px){
     .contactHeaderImg {

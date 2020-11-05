@@ -24,11 +24,13 @@ Modal.setAppElement('#root');
     }
     
     handleCloseModal () {
-      this.setState({ showModal: false });
+      setTimeout(function(){window.location.reload()}, 2000)
     }
     
    
     render () {
+
+  
   
       return (
         <div>
@@ -69,8 +71,7 @@ Modal.setAppElement('#root');
             }                          
           >
             <p>{this.props.message}</p>
-            <p>{this.props.caption}</p>
-             {/*<button onClick={this.handleCloseModal}>Close Modal</button>*/}
+             <button onClick={this.handleCloseModal}>Reload</button>
           </Modal>
         </div>
       );

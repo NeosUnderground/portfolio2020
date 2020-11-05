@@ -47,7 +47,6 @@ export default class home_page extends Component {
         };
       }
 
-
     render() {
         
 
@@ -142,11 +141,11 @@ export default class home_page extends Component {
 
             <div className='iconWrapper' >    
                     <div className='iconGroup'>
-                        <img className='skillIcon grow pointer' src={CSS} key="img1" alt='' data-aos="zoom-out-down" data-aos-delay="800" />
-                        <img className='skillIcon grow pointer' src={ReactImg} key="img2" alt='' data-aos="zoom-out-down" data-aos-delay="850"  />
-                        <img className='skillIcon grow pointer' src={HTML} key="img3"alt='' data-aos="zoom-out-down" data-aos-delay="950" />
-                        <img className='skillIcon grow pointer' src={NEXT} key="img4" alt='' data-aos="zoom-out-down" data-aos-delay="1000" />
-                        <img className='skillIcon grow pointer' src={ReduxImg} key="img5" alt='' data-aos="zoom-out-down" data-aos-delay="1050" />
+                        <img className='skillIcon grow pointer' src={CSS} key="img1" alt='' data-aos="zoom-out-down" data-aos-delay="600" />
+                        <img className='skillIcon grow pointer' src={ReactImg} key="img2" alt='' data-aos="zoom-out-down" data-aos-delay="700"  />
+                        <img className='skillIcon grow pointer' src={HTML} key="img3"alt='' data-aos="zoom-out-down" data-aos-delay="700" />
+                        <img className='skillIcon grow pointer' src={NEXT} key="img4" alt='' data-aos="zoom-out-down" data-aos-delay="750" />
+                        <img className='skillIcon grow pointer' src={ReduxImg} key="img5" alt='' data-aos="zoom-out-down" data-aos-delay="800" />
                     </div>
                     <div className='iconGroup'>
                         <img className='skillIcon grow pointer' src={Express} key="img6" alt='' data-aos="zoom-out-down" data-aos-delay="1100" />

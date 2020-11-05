@@ -40,7 +40,7 @@ export default class inputForm extends Component {
         if (message === '' || name ==='' || email === '')
          {
             this.setState({errorMessage:'Please complete the form'})
-            setTimeout(function(){window.location.reload()}, 3000)
+            // setTimeout(function(){window.location.reload()}, 3000)
         }
 
         else {
@@ -55,10 +55,10 @@ export default class inputForm extends Component {
                 .then(res => { // then print response status
                 console.log(res.statusText)
                 })
-                .then(
-                    setTimeout(function(){window.location.reload()}, 3000)
+                // .then(
+                //     setTimeout(function(){window.location.reload()}, 3000)
 
-                )
+                // )
 
             this.setState({errorMessage:''})
             this.setState({successMessage:'Your submission was successful, Thank you. '})

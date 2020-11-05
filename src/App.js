@@ -20,7 +20,7 @@ import './App.css';
         offset: 200,
         duration: 1200,
         easing: 'ease-in-sine',
-        delay: 200,
+        delay: 40,
       })
     }
 

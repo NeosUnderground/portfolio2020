@@ -3,7 +3,7 @@
  }
  @media only screen and (max-height:1150px){
   .contactHeaderImg {
-    min-height: 150vh !important;
+    min-height: 180vh !important;
   }
 }
 

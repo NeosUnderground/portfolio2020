@@ -28,7 +28,7 @@ export default class resume_page extends Component {
                        <img src={ResumeImg} alt='James Kubitz Resume'/>
                     </div>
                     <h1>View and Download:</h1>
-                    <a href='https://drive.google.com/file/d/179koM3yntslZqh5f2SkZzqWPios6mOP7/view?usp=sharing' rel="noopener noreferrer" target='_blank'> <img src={FileIconImg} alt='fileDownload' className='fileIcon grow pointer'></img></a>
+                    <a href='https://drive.google.com/file/d/1lCkZ77iHMupkEkM8O6onu0RCxgz5kf2S/view?usp=sharing' rel="noopener noreferrer" target='_blank'> <img src={FileIconImg} alt='fileDownload' className='fileIcon grow pointer'></img></a>
                 </div>
             </div>
         )

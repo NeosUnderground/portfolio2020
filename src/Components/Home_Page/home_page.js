@@ -47,11 +47,7 @@ export default class home_page extends Component {
         };
       }
 
-
     render() {
-        
-
-        
         return (
             <div className='homePage'>
             <LazyHero 
@@ -75,21 +71,21 @@ export default class home_page extends Component {
                     <img src={WhiteDesk} alt="" />
                         <div className='textAreaImageLeft'>
                             <p>
-                               Four years experiece with web development icluding: wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL. 
+                               Six years experiece with web development icluding: wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, SalesForce, Service Now, Agile Methodologies, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL. 
                             </p>
                         </div>
                 </div>
-                <div className='textArea ' data-aos='fade-down'>
+                {/* <div className='textArea ' data-aos='fade-down'>
                     <p className='centerText'>
                         My skillset can assist with maintaining, upgrading, or getting your website off the ground. You can find information about my freelance services <Link style={{textDecoration:'none'}} to='/Services'><span className='OdGreen md-24' ><strong>here.</strong></span></Link> If you are interested in viewing my resume you can find it <Link style={{textDecoration:'none'}} to='/Resume'><span className='OdGreen md-24' ><strong>here.</strong></span></Link> I am open to both employment and freelance work, if you are interesting in a FREE consultation you can <Link style={{textDecoration:'none'}} to='/Contact'><span className='OdGreen md-24' ><strong>Contact Me Today!</strong></span></Link>
                     </p>
-                </div>
+                </div> */}
 
                 {/* A JSX comment 
                  json dev homepage
                 "homepage": "https://neosunderground.github.io/portfolio2020/",
             
-            */}
+                 */}
            
                 <h1 data-aos='fade-up'>Technical Experience</h1>
 
@@ -133,7 +129,9 @@ export default class home_page extends Component {
                                 <li>Photoshop</li>
                                 <li>Postman</li>
                                 <li>Premiere</li>
-                                <li>Vs Code</li>                                                                               
+                                <li>Adobe XD</li>
+                                <li>Vs Code</li>    
+                                <li>Jira</li>                                                                            
                             </ul>
                     </div>
                 </div>
@@ -169,11 +167,7 @@ export default class home_page extends Component {
                         <img className='skillIcon grow pointer' src={VsCode}key="img21"alt='' data-aos="zoom-out-down" data-aos-delay="1100"/>
                     </div>     
             </div>               
-           
-                
-                
-            
-    </div>
+        </div>
         )
     }
 }

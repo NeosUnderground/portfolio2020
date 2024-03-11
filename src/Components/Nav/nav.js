@@ -50,16 +50,18 @@ export default class nav extends Component {
                                     <Link style={{textDecoration:'none'}} to='/'> {/* uses react-router-dom to for page navigation */} 
                                         <li onClick= {this.closeNav} className=' grow OdGreen OdGreenHover'>Home</li> {/* onClick closes nav and takes you to page */} 
                                     </Link>            
-                                    <Link style={{textDecoration:'none'}} to='/Services'>
+                                    {/* <Link style={{textDecoration:'none'}} to='/Services'>
                                         <li onClick= {this.closeNav} className='grow OdGreen OdGreenHover'>Services</li> 
-                                    </Link>              
+                                    </Link>               */}
 
                                     <Link style={{textDecoration:'none'}} to='/Resume'>
                                         <li onClick= {this.closeNav} className='grow OdGreen OdGreenHover'>Resume</li>
                                     </Link>
-                                    <Link style={{textDecoration:'none'}} to='/Contact'>
+
+                                    {/* <Link style={{textDecoration:'none'}} to='/Contact'>
                                         <li onClick= {this.closeNav} className='grow OdGreen OdGreenHover'>Contact</li>
-                                    </Link>
+                                    </Link> */}
+                                    
                                     {/* <Link style={{textDecoration:'none'}} to='/About'>
                                         <li onClick= {this.closeNav} className='grow blueHover'>About</li>
                                     </Link>*/}

@@ -97,3 +97,15 @@ a{
   	transform: translate(-50%, -50%);
   }
 }
+
+
+@media only screen and (max-width: 700px){
+	.hvrbox {
+		position: relative;
+		display: inline-block;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+	}
+}
+  

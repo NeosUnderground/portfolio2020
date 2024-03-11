@@ -71,8 +71,7 @@ export default class home_page extends Component {
                     <img src={WhiteDesk} alt="" />
                         <div className='textAreaImageLeft'>
                             <p>
-                               Six years experiece with web development icluding: wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, SalesForce, Service Now, Agile Methodologies, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL. 
-                            </p>
+                            Six years experience with web development including: wireframing, front-end development, back-end development, UI/UX design, WordPress, WooCommerce, SalesForce, Service Now, Agile Methodologies, and marketing. I obtained an Associate’s Degree in Programming and Bachelor’s Degree in Information Systems, along with completing numerous web development courses covering HTML, CSS, Javascript, MERN, MEAN, C#.NET CORE, WordPress, and SQL.                            </p>
                         </div>
                 </div>
                 {/* <div className='textArea ' data-aos='fade-down'>
